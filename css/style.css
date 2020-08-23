@@ -1,0 +1,117 @@
+  body 
+ { margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+
+
+
+}
+*{
+  -webkit-font-smoothing: antialiased;
+}
+
+    .back {
+   background-image: url(../images/1914Rectabgel.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+ 
+  }
+  .background{
+    background-image: url(../images/Group\ 4634.png);
+     
+    
+  }
+
+ 
+  .aboutus{
+    font-size: 7px;
+  }
+
+  .size{
+    font-size: 29px;
+  }
+  .size1{
+    font-size: 10px;
+  }
+  .blue{
+   background-image: url(../images/2.png);
+   background-size: cover;
+  
+
+  }
+  .up{
+    background-image: url(../images/aa.png);
+
+  }
+  #footer{
+    background-image: url(../images/Bg.png);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+  }
+ .lifooter{
+   padding:20px;
+ }
+ .gallery{
+   text-align: center;
+ }
+ .easyto{
+  margin-top: 135px;
+  margin-bottom: 126px;
+  background-color: #FEFEFE;
+ }
+ @media screen and (min-width:992px){
+  .activeImage img {
+    transform: scale(1.2);
+}
+.gallery{
+  margin-top: 113px;
+}
+ }
+
+ @media only screen and (max-width: 768px){
+   body{
+     width: 100%;
+   }
+   #mobil1{
+     display: none;
+   }
+   .back{
+    background-size: auto;
+    background-position: center;
+   }
+   .mono12{
+     display: none;
+   }
+.MobileBild{
+  width: 320px;
+}
+
+ }
+::placeholder{
+  color: #cccccc!important;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.get{
+  display:none;
+}
+.sec3{
+  margin-top: 44px;
+   
+    padding-left: 36px;
+}
+.appstore{
+  margin-top: 10px;
+}
+.app3{
+  margin-top: 10px;
+    margin-left: 40px;
+}
+.logo2{
+  margin-top: 20px;
+}
+#multi{
+  text-align: center;
+}
