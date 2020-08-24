@@ -10,7 +10,7 @@ font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
-    .back {
+  .back {
    background-image: url(../images/1914Rectabgel.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -61,7 +61,7 @@ font-family: 'Roboto', sans-serif;
   margin-bottom: 126px;
   background-color: #FEFEFE;
  }
- @media screen and (min-width:992px){
+ @media screen and (min-width:1800px){
   .activeImage img {
     transform: scale(1.2);
 }
@@ -114,4 +114,23 @@ font-family: 'Roboto', sans-serif;
 }
 #multi{
   text-align: center;
+}
+@media only screen and (max-width: 1780px) and (min-width: 770px)
+{
+body{
+    width: 100%;
+  }
+#mobil1{
+  display: none;
+} 
+.back{
+  background-size: inherit;
+  background-position: center;
+} 
+.width-1{
+  width: 100%;
+}
+.creative{
+  font-size: 30px;
+}
 }
