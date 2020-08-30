@@ -1,117 +1,276 @@
-  body 
- { margin: 0;
+body 
+{ margin: 0;
 padding: 0;
 font-family: 'Roboto', sans-serif;
 
 
 
 }
-*{
-  -webkit-font-smoothing: antialiased;
+.aa{
+  font-size: 20px;
+}
+.bb{
+  font-size: 14px;
 }
 
-    .back {
-   background-image: url(../images/1914Rectabgel.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: bottom;
- 
-  }
-  .background{
-    background-image: url(../images/Group\ 4634.png);
-     
-    
-  }
 
- 
-  .aboutus{
-    font-size: 7px;
-  }
+*{
+ -webkit-font-smoothing: antialiased;
+}
 
-  .size{
-    font-size: 29px;
-  }
-  .size1{
-    font-size: 10px;
-  }
-  .blue{
-   background-image: url(../images/2.png);
-   background-size: cover;
+ .back {
+  background-image: url(../images/1914Rectabgel.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   
 
-  }
-  .up{
-    background-image: url(../images/aa.png);
+ }
+ .background{
+   background-image: url(../images/Group\ 4634.png);
+  
+  
+ 
+ }
+ #get{
+   margin-top: 17px;
+ }
+ 
+ ::placeholder{
+   color: #cccccc!important;
+   text-transform: capitalize;
+   font-size: 16px;
+ }
 
-  }
-  #footer{
-    background-image: url(../images/Bg.png);
-    height: auto;
-    width: 100%;
-    background-size: cover;
-  }
- .lifooter{
-   padding:20px;
+ .aboutus{
+   font-size: 7px;
  }
- .gallery{
-   text-align: center;
+
+ .size{
+   font-size: 29px;
  }
- .easyto{
-  margin-top: 135px;
-  margin-bottom: 126px;
-  background-color: #FEFEFE;
+ .size1{
+   font-size: 10px;
  }
- @media screen and (min-width:992px){
-  .activeImage img {
-    transform: scale(1.2);
+ .blue{
+  background-image: url(../images/2.png);
+  background-size: cover;
+ 
+
+ }
+ .up{
+   background-image: url(../images/aa.png);
+
+ }
+ #logomono12{
+   margin-top: 81px;
+   margin-bottom: 81px;
+ 
+ }
+
+.slick-slide.slick-center {
+ transform: scale(1.1);
+
+}
+.slick-initialized .slick-slide {
+ margin: 60px 15px;
+}
+ #footer{
+   background-image: url(../images/Bg.png);
+   height: auto;
+   width: 100%;
+   background-size: cover;
+ }
+.lifooter{
+  padding:20px;
 }
 .gallery{
-  margin-top: 113px;
+  text-align: center;
 }
- }
-
- @media only screen and (max-width: 768px){
-   body{
-     width: 100%;
-   }
-   #mobil1{
-     display: none;
-   }
-   .back{
-    background-size: auto;
-    background-position: center;
-   }
-   .mono12{
-     display: none;
-   }
-.MobileBild{
-  width: 320px;
+.easyto{
+ margin-top: 135px;
+ margin-bottom: 126px;
+ background-color: #FEFEFE;
+}
+@media screen and (min-width:1800px){
+ .activeImage img {
+   transform: scale(1.2);
+}
+.gallery{
+ margin-top: 113px;
 }
 
- }
-::placeholder{
-  color: #cccccc!important;
-  text-transform: capitalize;
-  font-size: 16px;
 }
-.get{
-  display:none;
+
+
+@media only screen and (max-width: 768px){
+  body{
+    width: 100%;
+  }
+  #mobil1{
+    display: none;
+  }
+  .back{
+   background-size: auto;
+   background-position: center;
+  }
+  #watch{
+    margin-top: 10px;
+  }
+  #logomono12{
+    display: none!important;
+  }
+  .mono{
+    height: 20px;
+  }
+  #st{
+    margin-top: -10px;
+  }
+  .easyto{
+    margin-left: 20px;
+  }
+     .MobileBild{
+         width: 320px;
+      }
+  #im1{
+      margin-top: 165px;
+    }
+   #crea{
+       font-size: 23px!important;
+      }
+
+
+
+#get{
+ display:none;
 }
 .sec3{
-  margin-top: 44px;
-   
-    padding-left: 36px;
+ margin-top: 44px;
+
+
+  
+ 
 }
 .appstore{
-  margin-top: 10px;
+ margin-top: 10px;
 }
 .app3{
-  margin-top: 10px;
-    margin-left: 40px;
+ margin-top: 10px;
+  margin-left: 40px;
 }
 .logo2{
-  margin-top: 20px;
+ margin-top: 20px;
 }
 #multi{
-  text-align: center;
+ text-align: center;
+}
+.nummber{
+ font-size: 15px;
+
+
+}
+.client{
+ font-size: 10px;
+}
+.navbar-light .navbar-toggler {
+  margin-top: -153px;
+}
+.sec6{
+  font-size: 25px;
+}
+#sec7{
+ margin-top: 10px;
+}
+.img12{
+  height: 50%;
+}
+.applications{
+  display: none;
+}
+.applicationsta{
+  font-size :25px;
+}
+#sec88{
+  font-size: 25px!important;
+}
+}
+
+
+@media  screen and  (min-width: 779px)  and (max-width: 950px)
+{
+ 
+ #logomono12{
+   display: none;
+ }
+ #mobil1{
+   display: none;
+ }
+ .sec6{
+  font-size: 25px;
+}
+#sec7{
+ margin-top: 10px;
+}
+.img12{
+  height: 50%;
+}
+.applications{
+  display: none;
+}
+.applicationsta{
+  font-size :25px;
+}
+.client{
+  font-size: 10px;
+ }
+
+}
+
+
+@media  screen and  (min-width: 950px)  and (max-width: 1700px)
+{
+  .client{
+    font-size: 10px;
+   }
+body{
+   width: 100%;
+ }
+#mobil1{
+ height: 458px;
+} 
+.back{
+ height: 530px;
+} 
+/*.width-1{
+ width: 100%;
+}*/
+.way{
+ margin-left: 53px;
+}
+
+#logo2{
+ height: 50% ;
+ margin-top: 10px;
+ margin-left: 69px;
+ 
+
+}
+#crea{
+ font-size: 20px!important;
+}
+#mobill{
+ height: 450px;
+}
+.hei{
+  height: 400px;
+}
+.cntainer{
+  width: 50%!important;
+
+}
+.mono{
+  height: 16px;
+}
+
+
 }
