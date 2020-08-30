@@ -18,12 +18,27 @@ font-family: 'Roboto', sans-serif;
  -webkit-font-smoothing: antialiased;
 }
 
+<<<<<<< HEAD
  .back {
   background-image: url(../images/1914Rectabgel.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
   
+=======
+  .back {
+   background-image: url(../images/1914Rectabgel.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom;
+ 
+  }
+  .background{
+    background-image: url(../images/Group\ 4634.png);
+     
+    
+  }
+>>>>>>> 7fba6bb6763497d1b3e4b6dfe65fe5c300085136
 
  }
  .background{
@@ -67,10 +82,16 @@ font-family: 'Roboto', sans-serif;
    margin-bottom: 81px;
  
  }
+<<<<<<< HEAD
 
 .slick-slide.slick-center {
  transform: scale(1.1);
 
+=======
+ @media screen and (min-width:1800px){
+  .activeImage img {
+    transform: scale(1.2);
+>>>>>>> 7fba6bb6763497d1b3e4b6dfe65fe5c300085136
 }
 .slick-initialized .slick-slide {
  margin: 60px 15px;
@@ -162,6 +183,7 @@ font-family: 'Roboto', sans-serif;
  margin-top: 20px;
 }
 #multi{
+<<<<<<< HEAD
  text-align: center;
 }
 .nummber{
@@ -274,3 +296,26 @@ body{
 
 
 }
+=======
+  text-align: center;
+}
+@media only screen and (max-width: 1780px) and (min-width: 770px)
+{
+body{
+    width: 100%;
+  }
+#mobil1{
+  display: none;
+} 
+.back{
+  background-size: inherit;
+  background-position: center;
+} 
+.width-1{
+  width: 100%;
+}
+.creative{
+  font-size: 30px;
+}
+}
+>>>>>>> 7fba6bb6763497d1b3e4b6dfe65fe5c300085136
